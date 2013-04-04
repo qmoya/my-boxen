@@ -35,3 +35,4 @@ github "sudo",     "1.0.0"
 # https://github.com/boxen.
 
 github "postgresql", "1.0.0"
+github "textmate", "1.0.0"
