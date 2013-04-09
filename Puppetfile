@@ -36,3 +36,4 @@ github "sudo",     "1.0.0"
 
 github "postgresql", "1.0.0"
 github "textmate", "1.0.0"
+github "heroku", "1.0.0"
