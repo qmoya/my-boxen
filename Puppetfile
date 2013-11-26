@@ -56,3 +56,4 @@ github "xquartz",    "1.1.0"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 github "sublime_text_2", "1.1.2"
+github "skype", "1.0.7"
