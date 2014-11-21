@@ -114,6 +114,11 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-tower
+  specs:
+    tower (1.1.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-xctool
   specs:
     xctool (0.0.1)
@@ -171,6 +176,7 @@ DEPENDENCIES
   stdlib (= 4.2.1)
   sublime_text_2 (= 1.1.2)
   sudo (= 1.0.0)
+  tower (= 1.1.0)
   xctool (= 0.0.1)
   xquartz (= 1.2.1)
 
