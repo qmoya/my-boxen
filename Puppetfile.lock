@@ -74,11 +74,6 @@ GITHUBTARBALL
     nodejs (3.8.1)
 
 GITHUBTARBALL
-  remote: boxen/puppet-onepassword
-  specs:
-    onepassword (1.0.2)
-
-GITHUBTARBALL
   remote: boxen/puppet-openssl
   specs:
     openssl (1.0.0)
@@ -92,6 +87,11 @@ GITHUBTARBALL
   remote: boxen/puppet-pkgconfig
   specs:
     pkgconfig (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-postgresql
+  specs:
+    postgresql (3.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-repository
@@ -119,6 +119,11 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-sysctl
+  specs:
+    sysctl (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-tower
   specs:
     tower (1.1.0)
@@ -126,7 +131,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-xctool
   specs:
-    xctool (0.0.1)
+    xctool (0.0.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-xquartz
@@ -172,17 +177,18 @@ DEPENDENCIES
   module_data (= 0.0.3)
   nginx (= 1.4.3)
   nodejs (= 3.8.1)
-  onepassword (= 1.0.2)
   openssl (= 1.0.0)
   phantomjs (= 2.3.0)
   pkgconfig (= 1.0.0)
+  postgresql (= 3.0.1)
   repository (= 2.3.0)
   ruby (= 8.1.4)
   skype (= 1.0.7)
   stdlib (= 4.2.1)
   sublime_text_2 (= 1.1.2)
   sudo (= 1.0.0)
+  sysctl (= 1.0.1)
   tower (= 1.1.0)
-  xctool (= 0.0.1)
+  xctool (= 0.0.2)
   xquartz (= 1.2.1)
 
