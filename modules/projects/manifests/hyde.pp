@@ -3,11 +3,9 @@ class projects::hyde {
   include xctool
   include imagemagick
 
-  include phantomjs
-  phantomjs::global { '1.9.0': }
-
   boxen::project { 'hyde':
-    ruby   => '2.1.2',
-    source => 'https://qmoya@bitbucket.org/qmoya/hyde.git'
+    ruby      => '2.1.2',
+    source    => 'https://qmoya@bitbucket.org/qmoya/hyde.git',
+    phantomjs => '1.9.0'
   }
 }
